@@ -37,4 +37,4 @@ if ($AppxVer -gt [version]$version) {
   }
 }
 
-Add-ProvisionedAppPackage -Online -SkipLicense -PackagePath $fileName
+Add-AppxProvisionedPackage -Online -SkipLicense -PackagePath $fileName
